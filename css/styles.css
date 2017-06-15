@@ -1,0 +1,267 @@
+
+/*Erstattet jumbotron i bootstrap*/
+.formboks{
+	width:100%;
+	background-color:rgb(242,242,242);
+	padding:4%;
+	border-radius: 1%;
+}
+
+.dinsamkjoring{
+  background-color: #eee;
+}
+
+.dropdown-menu{
+   float:left;
+}
+
+
+/*Nav og lenker*/
+/*Avstand fra navigasjonsbar og til neste element*/
+.navbar{
+  margin-bottom: 3%;
+}
+
+.navlink .active{
+  color:white;
+}
+
+a:hover{
+  text-decoration: none;
+  color:#15b746;
+}
+a{
+  color: black;
+}
+
+/*Kortene på din side*/
+/*Gjør det mer synlig at blidene er lenker på din side*/
+.card-img-top:hover{
+	filter: contrast(140%);
+}
+
+.card{
+padding-top: 15px;
+padding-bottom: 15px;
+margin-top:5%;
+margin-bottom: 5%;
+}
+
+
+
+
+
+
+.right{
+  float:right;
+  clear:both;
+}
+
+.menu-	{
+  left: auto;
+  right: 100%;
+  margin-left: 0;
+  margin-right: -1px;
+}
+
+/*
+#nav-main :target{
+  transition: 0.3;
+}
+
+.navbar{
+  -webkit-transform: translateZ( 0 );
+   transform: translateZ( 0 );
+   -webkit-transition: -webkit-transform 0.6s ease-in-out;
+   transition: transform 0.6s ease-in-out;
+   -webkit-backface-visibility: hidden;
+   backface-visibility: hidden;
+}
+
+a[ id= "nav-main" ]:target ~ #nav-main {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+*/
+
+
+/*Cover.html*/
+
+/*Gjør cover bilde bedre*/
+html,
+body{
+  height:100%;
+}
+
+#cover{
+  background: #222 url('../img/mann.jpg') center center no-repeat;
+  background-size: cover;
+  color:white;
+  height:100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+	filter: brightness(100%);
+	filter: contrast(120%);
+}
+
+.cover-img{
+	filter:grayscale(0);
+}
+
+#cover-caption{
+  width:100%;
+}
+
+/*overskriftene på siden, feks velkommen til ridealong*/
+.section-title{
+	margin-bottom: 35px;
+	margin-top: 3%;
+	text-align: center;
+  align-items: center;
+}
+.section-title h2{
+	font-size: 26px;
+	font-weight: 800;
+	letter-spacing: 0.04em;
+	margin: 0 0 10px;
+	padding: 0 0 15px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+}
+.section-title h2:before {
+	border: 2px solid #15b746;
+	bottom: 0;
+	content: "";
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	width: 100px;
+}
+.section-title p{
+	color: #9c9c9c;
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+}
+
+/*De tre ikonene på forsiden index.php*/
+.welcome_section{
+	overflow: hidden;
+}
+.about{
+	margin: 0 auto;
+	padding: 60px 20px;
+}
+.about h2{
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+}
+.about p{
+	margin: 20px;
+	text-align: center;
+}
+.welcome_part{
+	margin: 50px auto 80px;
+
+}
+.welcome_icon{
+  font-size: 180%;
+	background: none repeat scroll 0 0 transparent;
+	border: 2px solid #129D3B;
+	border-radius: 100%;
+	color: #129D3B;
+	margin-top: 0 auto;
+	padding: 9% 9% 15% 9%;
+	text-align: center;
+	width:50%;
+  height:60%;
+  margin-left: 25%;
+  margin-bottom: 6%;
+}
+.welcome_icon:hover{
+	border-color: #15b746;
+	color: #15b746;
+}
+
+#boks{
+  border-style: solid;
+  width:80%;
+  height:auto;
+}
+
+.welcome_icon i{
+
+  font-size: 180%;
+}
+.welcome_part h2{
+	font-size: 110%;
+	font-weight: 700;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.welcome_part p{
+	color: #9c9c9c;
+	font-size: 100%;
+	text-align: center;
+}
+
+/*Kontakt oss i footer*/
+
+.contact_section{
+	overflow: hidden;
+	background: none repeat scroll 0 0 #18191a;
+	color: #fff;
+}
+.contact_head{
+	padding: 80px 0 30px;
+	text-align: center;
+}
+.contact_head h2{
+	font-size: 35px;
+	font-weight: bold;
+}
+.contact_head p{}
+.address_part{}
+.address{
+	margin: 10px auto;
+	font-weight: 600;
+}
+.phone{
+	margin: 10px auto;
+	font-weight: 600;
+}
+.email{
+	margin: 10px auto;
+	font-weight: 600;
+}
+
+.contact_form{
+	margin-bottom: 60px;
+}
+.contact_input_box{
+	background: none repeat scroll 0 0 transparent;
+	border: 1px solid #666;
+	border-radius: 30px;
+	color:black;
+	height: auto;
+	margin-bottom: 30px;
+	padding: 15px;
+	resize: none;
+}
+
+.contact_button{
+	border-radius: 30px;
+	font-size: 18px;
+	height: auto;
+	padding: 10px 25px;
+}
+.contact_button:focus, .contact_button:active:focus, .contact_button.active:focus {
+	outline: medium none;
+	outline-offset: -2px;
+}

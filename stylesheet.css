@@ -1,0 +1,59 @@
+.jumbotron{
+  background-color:rgb(242,242,242);
+}
+
+.breadcrumb{
+  background-color:white;
+}
+
+.nav-link{
+  color: white;
+}
+.knapp{
+ float:left;
+}
+
+td{
+  margin:3%;
+}
+
+
+/*Iphone 6+*/
+/* Portrait */
+@media only screen 
+  and (max-device-width: 736px) 
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/*Both*/
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+.welcome_icon{
+      font-size: 180%;
+      background: none repeat scroll 0 0 transparent;
+      border: 2px solid #129D3B;
+      border-radius: 100%;
+      color: #129D3B;
+      margin-top: 0 auto;
+      padding: 9% 9% 15% 9%;
+      text-align: center;
+      width:38%;
+      height:39%;
+      margin-left: 22%;
+      margin-bottom: 6%;
+}
+
+}
